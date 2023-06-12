@@ -1,11 +1,3 @@
-<!--
- * @Author: curechen 981470148@qq.com
- * @Date: 2023-06-11 13:08:44
- * @LastEditors: curechen 981470148@qq.com
- * @LastEditTime: 2023-06-11 13:08:58
- * @FilePath: \workplace\React\nextjs-blog\posts\ssg-ssr.md
- * @Description: 
--->
 ---
 title: 'When to Use Static Generation v.s. Server-side Rendering'
 date: '2020-01-02'

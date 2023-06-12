@@ -1,11 +1,3 @@
-<!--
- * @Author: curechen 981470148@qq.com
- * @Date: 2023-06-11 13:07:40
- * @LastEditors: curechen 981470148@qq.com
- * @LastEditTime: 2023-06-11 13:07:55
- * @FilePath: \workplace\React\nextjs-blog\posts\pre-rendering.md
- * @Description: 
--->
 ---
 title: 'Two Forms of Pre-rendering'
 date: '2020-01-01'

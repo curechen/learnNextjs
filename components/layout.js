@@ -2,7 +2,7 @@
  * @Author: curechen 981470148@qq.com
  * @Date: 2023-06-09 13:52:06
  * @LastEditors: curechen 981470148@qq.com
- * @LastEditTime: 2023-06-09 15:46:07
+ * @LastEditTime: 2023-06-12 20:18:37
  * @FilePath: \workplace\React\nextjs-blog\components\layout.js
  * @Description: 
  */
@@ -45,17 +45,15 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
                 <img
                   src="/images/profile.jpg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
-              </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <span className={utilStyles.colorInherit}>{name}</span>
               </Link>
             </h2>
           </>
@@ -65,7 +63,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            ← Back to home
           </Link>
         </div>
       )}
