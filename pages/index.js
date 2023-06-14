@@ -1,11 +1,4 @@
-/*
- * @Author: curechen 981470148@qq.com
- * @Date: 2023-06-08 21:00:42
- * @LastEditors: curechen 981470148@qq.com
- * @LastEditTime: 2023-06-12 14:22:57
- * @FilePath: \workplace\React\nextjs-blog\pages\index.js
- * @Description: 
- */
+
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
